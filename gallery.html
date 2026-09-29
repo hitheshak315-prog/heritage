@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery & Archives – Karnataka Heritage</title>
+  <meta name="description" content="View photographic records of Karnataka's architectural monuments, ancient sculptures, Mysore paintings, historical artifacts, and cultural performances.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-info">
+        <span class="top-bar-item">🏛️ <strong>Open Today:</strong> 10:00 AM – 5:30 PM (Closed Mondays)</span>
+        <span class="top-bar-item">📍 Kasturba Road, Bengaluru, Karnataka 560001</span>
+        <span class="top-bar-item">📞 +91 80 2286 4483</span>
+      </div>
+      <div class="top-bar-actions">
+        <div class="lang-switch">
+          <span class="active">English</span> | <span>ಕನ್ನಡ</span>
+        </div>
+        <a href="visitor-info.html" class="btn btn-sm btn-gold">Plan Visit</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-crest" title="Gandaberunda Emblem">
+          <span>🏛️</span>
+        </div>
+        <div class="brand-text">
+          <h1>KARNATAKA HERITAGE</h1>
+          <span class="brand-tagline">Museum & Cultural Portal</span>
+          <span class="brand-kannada">ಕರ್ನಾಟಕ ಪರಂಪರೆ</span>
+        </div>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="history.html" class="nav-link">History</a></li>
+          <li class="nav-item"><a href="collections.html" class="nav-link">Collections</a></li>
+          <li class="nav-item"><a href="artifacts.html" class="nav-link">Artifacts</a></li>
+          <li class="nav-item"><a href="exhibitions.html" class="nav-link">Exhibitions</a></li>
+          <li class="nav-item"><a href="personalities.html" class="nav-link">Personalities</a></li>
+          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+          <li class="nav-item"><a href="visitor-info.html" class="nav-link">Visit</a></li>
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link">Explore ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="virtual-tour.html" class="dropdown-link">Virtual Museum Tour</a></li>
+              <li><a href="research.html" class="dropdown-link">Research & Archives</a></li>
+              <li><a href="education.html" class="dropdown-link">Education & Learning</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="news.html" class="nav-link">News</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero & Breadcrumbs -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Photo Gallery</h1>
+      <p class="lead">A visual celebration of museum galleries, architectural monuments, dynastic sculptures, rare manuscripts, and living cultural festivities.</p>
+    </div>
+  </section>
+
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-separator">/</li>
+        <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="section">
+    <div class="container">
+      
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Photos (12)</button>
+        <button class="filter-btn" data-filter="architecture">Building & Architecture</button>
+        <button class="filter-btn" data-filter="sculptures">Sculptures</button>
+        <button class="filter-btn" data-filter="paintings">Paintings</button>
+        <button class="filter-btn" data-filter="objects">Historical Objects</button>
+        <button class="filter-btn" data-filter="events">Events & Culture</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        
+        <!-- 1: Architecture -->
+        <div class="gallery-item" data-category="architecture">
+          <img src="https://images.unsplash.com/photo-1590766940554-634a7ed41450?auto=format&fit=crop&w=800&q=80" alt="Mysore Palace illuminated during Dasara">
+          <div class="gallery-overlay">
+            <h4>Mysore Palace (Amba Vilas)</h4>
+            <span>Architecture & Heritage</span>
+          </div>
+        </div>
+
+        <!-- 2: Architecture -->
+        <div class="gallery-item" data-category="architecture">
+          <img src="https://images.unsplash.com/photo-1600100397608-f010f443b747?auto=format&fit=crop&w=800&q=80" alt="Stone Chariot at Vijaya Vittala Temple Hampi">
+          <div class="gallery-overlay">
+            <h4>Stone Chariot at Hampi</h4>
+            <span>Architecture • Vijayanagara Era</span>
+          </div>
+        </div>
+
+        <!-- 3: Building -->
+        <div class="gallery-item" data-category="architecture">
+          <img src="https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?auto=format&fit=crop&w=800&q=80" alt="Museum Neoclassical Heritage Portico">
+          <div class="gallery-overlay">
+            <h4>Karnataka Heritage Main Foyer</h4>
+            <span>Museum Building (Est. 1877)</span>
+          </div>
+        </div>
+
+        <!-- 4: Sculptures -->
+        <div class="gallery-item" data-category="sculptures">
+          <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80" alt="Intricate soapstone carvings of Belur temple">
+          <div class="gallery-overlay">
+            <h4>Hoysala Soapstone Relief Carving</h4>
+            <span>Sculptures • 12th Century</span>
+          </div>
+        </div>
+
+        <!-- 5: Sculptures -->
+        <div class="gallery-item" data-category="sculptures">
+          <img src="https://images.unsplash.com/photo-1578925518470-4def7a0f08bb?auto=format&fit=crop&w=800&q=80" alt="Ancient sacred stone icons in museum hall">
+          <div class="gallery-overlay">
+            <h4>Ganga & Chalukya Icons Hall</h4>
+            <span>Sculptures & Epigraphy</span>
+          </div>
+        </div>
+
+        <!-- 6: Paintings -->
+        <div class="gallery-item" data-category="paintings">
+          <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80" alt="Mysore traditional painting with gold leaf">
+          <div class="gallery-overlay">
+            <h4>Traditional Mysore Gesso Painting</h4>
+            <span>Paintings • 24K Gold Foil</span>
+          </div>
+        </div>
+
+        <!-- 7: Historical Objects -->
+        <div class="gallery-item" data-category="objects">
+          <img src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?auto=format&fit=crop&w=800&q=80" alt="Antique wootz steel swords and arms">
+          <div class="gallery-overlay">
+            <h4>Crucible Wootz Steel Talwars</h4>
+            <span>Historical Objects • Royal Armoury</span>
+          </div>
+        </div>
+
+        <!-- 8: Historical Objects -->
+        <div class="gallery-item" data-category="objects">
+          <img src="https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=800&q=80" alt="Ancient gold and copper coins">
+          <div class="gallery-overlay">
+            <h4>Vijayanagara Gold Pagodas</h4>
+            <span>Historical Objects • Numismatics</span>
+          </div>
+        </div>
+
+        <!-- 9: Historical Objects -->
+        <div class="gallery-item" data-category="objects">
+          <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80" alt="Classical Kannada palm-leaf manuscript">
+          <div class="gallery-overlay">
+            <h4>Halegannada Palm-Leaf Folio</h4>
+            <span>Historical Objects • Manuscripts</span>
+          </div>
+        </div>
+
+        <!-- 10: Events & Culture -->
+        <div class="gallery-item" data-category="events">
+          <img src="https://images.unsplash.com/photo-1584810359583-96fc3448beaa?auto=format&fit=crop&w=800&q=80" alt="Yakshagana folk theatre artist performing">
+          <div class="gallery-overlay">
+            <h4>Yakshagana Folk Theatre Performance</h4>
+            <span>Events & Culture • Living Traditions</span>
+          </div>
+        </div>
+
+        <!-- 11: Events & Culture -->
+        <div class="gallery-item" data-category="events">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="School children participating in museum tour">
+          <div class="gallery-overlay">
+            <h4>Students' Epigraphy Discovery Walk</h4>
+            <span>Events & Culture • Education</span>
+          </div>
+        </div>
+
+        <!-- 12: Historical Objects -->
+        <div class="gallery-item" data-category="objects">
+          <img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=800&q=80" alt="Megalithic urns and terracotta artifacts">
+          <div class="gallery-overlay">
+            <h4>Megalithic Burial Urns & Pottery</h4>
+            <span>Historical Objects • Chandravalli</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center" style="margin-top: 3rem;">
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          Click on any photograph to launch full-screen high-resolution lightbox view.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Interactive Lightbox Modal -->
+  <div id="gallery-lightbox" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Image gallery lightbox">
+    <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">‹</button>
+    <button class="lightbox-next" aria-label="Next image">›</button>
+    <div class="lightbox-content">
+      <img src="" alt="Enlarged gallery view">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>KARNATAKA HERITAGE</h3>
+          <span class="brand-tagline">Museum & Cultural Portal</span>
+          <p>
+            Dedicated to the preservation, scholarly documentation, and public appreciation of Karnataka's art, dynastic history, and monumental architecture.
+          </p>
+          <div class="footer-motto">
+            “Preserving the past. Inspiring the future.”
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the Museum</a></li>
+            <li><a href="history.html">History & Heritage</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="artifacts.html">Artifact Records</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Research & Learn</h4>
+          <ul class="footer-links">
+            <li><a href="personalities.html">Famous Personalities</a></li>
+            <li><a href="events.html">Events & Programs</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="virtual-tour.html">Virtual Museum Tour</a></li>
+            <li><a href="research.html">Digital Archives</a></li>
+            <li><a href="education.html">Education & Quiz</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-contact-item"><span>📍</span><span>Kasturba Road, Bengaluru, Karnataka 560001</span></div>
+          <div class="footer-contact-item"><span>🕒</span><span>Tue – Sun: 10:00 AM – 5:30 PM (Mondays Closed)</span></div>
+          <div class="footer-contact-item"><span>📞</span><span>+91 80 2286 4483</span></div>
+          <div class="footer-contact-item"><span>✉️</span><span>curator@heritagekarnataka.gov.in</span></div>
+          <div class="footer-social-links">
+            <a href="#" class="social-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" aria-label="Instagram">📸</a>
+            <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <div>© 2026 Karnataka Heritage. All Rights Reserved.</div>
+          <div><a href="contact.html" style="color: #a39584;">Contact Administration</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top-btn" aria-label="Scroll to top of page">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

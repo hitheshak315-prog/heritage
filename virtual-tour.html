@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Museum Tour – Karnataka Heritage</title>
+  <meta name="description" content="Take an interactive virtual step through Karnataka Heritage's entrance, epigraphical hall, Hoysala sculpture gallery, royal armoury, and special exhibition halls.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-info">
+        <span class="top-bar-item">🏛️ <strong>Open Today:</strong> 10:00 AM – 5:30 PM (Closed Mondays)</span>
+        <span class="top-bar-item">📍 Kasturba Road, Bengaluru, Karnataka 560001</span>
+        <span class="top-bar-item">📞 +91 80 2286 4483</span>
+      </div>
+      <div class="top-bar-actions">
+        <div class="lang-switch">
+          <span class="active">English</span> | <span>ಕನ್ನಡ</span>
+        </div>
+        <a href="visitor-info.html" class="btn btn-sm btn-gold">Plan Visit</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-crest" title="Gandaberunda Emblem">
+          <span>🏛️</span>
+        </div>
+        <div class="brand-text">
+          <h1>KARNATAKA HERITAGE</h1>
+          <span class="brand-tagline">Museum & Cultural Portal</span>
+          <span class="brand-kannada">ಕರ್ನಾಟಕ ಪರಂಪರೆ</span>
+        </div>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="history.html" class="nav-link">History</a></li>
+          <li class="nav-item"><a href="collections.html" class="nav-link">Collections</a></li>
+          <li class="nav-item"><a href="artifacts.html" class="nav-link">Artifacts</a></li>
+          <li class="nav-item"><a href="exhibitions.html" class="nav-link">Exhibitions</a></li>
+          <li class="nav-item"><a href="personalities.html" class="nav-link">Personalities</a></li>
+          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="visitor-info.html" class="nav-link">Visit</a></li>
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link active">Explore ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="virtual-tour.html" class="dropdown-link active">Virtual Museum Tour</a></li>
+              <li><a href="research.html" class="dropdown-link">Research & Archives</a></li>
+              <li><a href="education.html" class="dropdown-link">Education & Learning</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="news.html" class="nav-link">News</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero & Breadcrumbs -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Virtual Museum Tour</h1>
+      <p class="lead">Walk virtually through the hallowed halls of Karnataka Heritage from your desktop or phone.</p>
+    </div>
+  </section>
+
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-separator">/</li>
+        <li class="breadcrumb-item"><a href="#">Explore</a></li>
+        <li class="breadcrumb-separator">/</li>
+        <li class="breadcrumb-item active" aria-current="page">Virtual Museum Tour</li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="section">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="section-badge">Interactive Stepper</span>
+        <h2>Explore Our Five Signature Halls</h2>
+        <div class="ornament"><span class="ornament-diamond"></span></div>
+        <p class="section-subtitle">
+          Use the Previous and Next controls or click on the room thumbnails below to step through our key gallery wings.
+        </p>
+      </div>
+
+      <!-- Interactive Virtual Tour Component -->
+      <div class="tour-viewer-container">
+        
+        <!-- Large Viewport -->
+        <div class="tour-viewport">
+          <img src="https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?auto=format&fit=crop&w=1200&q=80" alt="Museum room view">
+          <div class="tour-overlay-info">
+            <h3>Room 1: Grand Museum Entrance & Foyer</h3>
+            <p>
+              Visitors enter through the iconic red brick neoclassical portico built in 1877 under Col. Sankey. The foyer houses a majestic life-size marble statue of Maharaja Chamarajendra Wodeyar X and an introductory relief map of Karnataka historical sites.
+            </p>
+          </div>
+        </div>
+
+        <!-- Controls Bar -->
+        <div class="tour-controls">
+          <button class="tour-nav-btn tour-nav-prev" disabled>
+            ← Previous Room
+          </button>
+          
+          <div class="tour-room-indicator">
+            Room 1 of 5
+          </div>
+
+          <button class="tour-nav-btn tour-nav-next">
+            Next Room →
+          </button>
+        </div>
+
+        <!-- Thumbnails Strip -->
+        <div class="tour-thumbnails">
+          
+          <div class="tour-thumb active" title="Room 1: Museum Entrance">
+            <img src="https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?auto=format&fit=crop&w=300&q=80" alt="Entrance thumbnail">
+          </div>
+
+          <div class="tour-thumb" title="Room 2: Epigraphical Hall">
+            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=300&q=80" alt="Epigraphy hall thumbnail">
+          </div>
+
+          <div class="tour-thumb" title="Room 3: Hoysala Sculpture Gallery">
+            <img src="https://images.unsplash.com/photo-1578925518470-4def7a0f08bb?auto=format&fit=crop&w=300&q=80" alt="Sculpture gallery thumbnail">
+          </div>
+
+          <div class="tour-thumb" title="Room 4: Royal Arms & Armoury">
+            <img src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?auto=format&fit=crop&w=300&q=80" alt="Arms and weapons thumbnail">
+          </div>
+
+          <div class="tour-thumb" title="Room 5: Special Exhibition Hall">
+            <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=300&q=80" alt="Paintings gallery thumbnail">
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Room Descriptions Guide -->
+      <div style="margin-top: 4rem;">
+        <span class="section-badge">Gallery Guide</span>
+        <h2>Curatorial Overview of Tour Rooms</h2>
+        <div class="ornament" style="justify-content: flex-start; margin-left: 0;"><span class="ornament-diamond"></span></div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
+          
+          <div class="info-card">
+            <h4 style="color: var(--maroon-deep);">🏛️ Room 1: Neoclassical Foyer</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">
+              Preserves the 1877 foundation plaque, original Corinthian capitals, and life-size portraits of Mysore royal patrons. Serves as the starting point for guided tours and audio device rentals.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h4 style="color: var(--maroon-deep);">📜 Room 2: Epigraphy & Inscription Hall</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">
+              Features 80 original and cast stone inscriptions. Major highlights include the 5th-century Halmidi Inscription and the 949 CE Atakur stone memorial recording a battlefield alliance.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h4 style="color: var(--maroon-deep);">🗿 Room 3: Hoysala & Chalukya Sculptures</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">
+              Showcases 12th-century chloritic schist Madanika bracket figures from Belur and Halebidu, depicting celestial beauties, drummers, and musicians carved with lace-like precision.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h4 style="color: var(--maroon-deep);">⚔️ Room 4: Royal Arms & Numismatics</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">
+              Houses over 400 wootz steel swords, tiger-pommel daggers, chainmail armor, and early Roman and Vijayanagara gold coinage reflecting Karnataka's military and trade history.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h4 style="color: var(--maroon-deep);">🎨 Room 5: Special Exhibition Wing</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">
+              Currently hosting "Gesso & Gold: Mysore Painting Traditions," featuring 45 restored 19th-century works crafted with pure gold foil, natural vegetable dyes, and gesso relief paste.
+            </p>
+          </div>
+
+          <div class="info-card" style="border-top-color: var(--gold-primary); background: var(--cream-surface);">
+            <h4 style="color: var(--maroon-deep);">🎟️ Experience It in Person</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
+              Nothing compares to standing before thousand-year-old soapstone carvings in person. Plan your physical museum visit today.
+            </p>
+            <a href="visitor-info.html" class="btn btn-sm btn-primary">Visitor Information →</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>KARNATAKA HERITAGE</h3>
+          <span class="brand-tagline">Museum & Cultural Portal</span>
+          <p>
+            Dedicated to the preservation, scholarly documentation, and public appreciation of Karnataka's art, dynastic history, and monumental architecture.
+          </p>
+          <div class="footer-motto">
+            “Preserving the past. Inspiring the future.”
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the Museum</a></li>
+            <li><a href="history.html">History & Heritage</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="artifacts.html">Artifact Records</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Research & Learn</h4>
+          <ul class="footer-links">
+            <li><a href="personalities.html">Famous Personalities</a></li>
+            <li><a href="events.html">Events & Programs</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="virtual-tour.html">Virtual Museum Tour</a></li>
+            <li><a href="research.html">Digital Archives</a></li>
+            <li><a href="education.html">Education & Quiz</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visitor Information</h4>
+          <div class="footer-contact-item"><span>📍</span><span>Kasturba Road, Bengaluru, Karnataka 560001</span></div>
+          <div class="footer-contact-item"><span>🕒</span><span>Tue – Sun: 10:00 AM – 5:30 PM (Mondays Closed)</span></div>
+          <div class="footer-contact-item"><span>📞</span><span>+91 80 2286 4483</span></div>
+          <div class="footer-contact-item"><span>✉️</span><span>curator@heritagekarnataka.gov.in</span></div>
+          <div class="footer-social-links">
+            <a href="#" class="social-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" aria-label="Instagram">📸</a>
+            <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <div>© 2026 Karnataka Heritage. All Rights Reserved.</div>
+          <div><a href="contact.html" style="color: #a39584;">Contact Administration</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top-btn" aria-label="Scroll to top of page">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
